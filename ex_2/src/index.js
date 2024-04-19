@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-      <App />,
-  document.getElementById('root')
-);
-reportWebVitals();
+class MyClass extends React.Component {
+  render() {
+    return <h1>Hi everyone!</h1>;
+  }
+}
+
+ReactDOM.render(<MyClass />, document.getElementById('root'));

@@ -1,10 +1,9 @@
 import React from 'react';
-import Hi from './component/MyClass';
 
 function App() {
   return (
     <div className="App">
-      <Hi />
+      <h1>Hello Dongguk UNIV!</h1>
     </div>
   );
 }
